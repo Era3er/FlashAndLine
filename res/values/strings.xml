@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FlashAndLine!</string>
+    <string name="app_name">FlashAndLine</string>
+    <string name="flash_button">Flash</string>
+</resources>
