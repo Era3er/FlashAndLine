@@ -136,6 +136,21 @@ public class FlashAndLine extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         button = findViewById(R.id.flash);
+        button.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v) 
+            {
+                if (lightOn) 
+                {
+                	turnLightOff();
+                }
+                else 
+                {
+                	turnLightOn();
+                }
+            }
+        });
+
     }
     
     @Override
